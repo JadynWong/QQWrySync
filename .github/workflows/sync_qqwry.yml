@@ -24,7 +24,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           ## The branch, tag or SHA to checkout.
-          ref: 'test'
+          ref: 'main'
 
       # Runs a single command using the runners shell
       - name: Run download script
